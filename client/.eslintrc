@@ -28,16 +28,6 @@
       {
         "caseSensitive": false
       }
-    ],
-    "jsx-a11y/label-has-associated-control": [
-      "warning",
-      {
-        "labelComponents": [],
-        "labelAttributes": [],
-        "controlComponents": [],
-        "assert": "both",
-        "depth": 25
-      }
     ]
   },
   "settings": {
