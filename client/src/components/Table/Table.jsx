@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 import { Table, Input, Button, Space } from 'antd';
+import CustomButton from '../../components/Button/Button';
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined, DeleteOutlined, EditOutlined } from '@ant-design/icons';
 
@@ -132,11 +133,12 @@ class CustomTable extends React.Component {
         key: 'action',
         render: (rowData) => (
           <div className="button-actions-container">
-            <Button
+            <CustomButton
               text={<DeleteOutlined />}
+              onClick={console.log('hu')}
               onClick={() => { setItemToDelete(rowData.id); setDeleteModalOpen(true); }}
             />
-            <Button
+            <CustomButton
               text={<EditOutlined />}
               onClick={() => {
                 setDataToEdit({

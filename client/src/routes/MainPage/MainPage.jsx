@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Spin } from 'antd';
-import { DeleteOutlined, EditOutlined } from '@ant-design/icons'; // eslint-disable-line
 import { getAllData, addNewPartner, deletePartner } from '../../actions/partnerActions';
 import Header from '../../containers/Header';
 import Button from '../../components/Button/Button';
