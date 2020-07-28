@@ -10,7 +10,7 @@ cd server
 ```
 node server.js
 ```
-- navigate to frontend directory
+- open new terminal window and navigate to frontend directory
 ```
 cd ../client
 ```
