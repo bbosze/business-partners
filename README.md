@@ -2,22 +2,23 @@
 
 ## How to start the app
 
--move into project root directory
--create sample database and start backend server:
+- navigate to backend directory
 ```
 cd server
 ```
+- create sample database and start backend server:
 ```
 node server.js
 ```
-
--start frontend app:
+- navigate to frontend directory
 ```
 cd ../client
 ```
+- install dependencies:
 ```
 yarn
 ```
+- start frontend app:
 ```
 yarn start
 ```
